@@ -21,6 +21,47 @@
 	      <h1>My Projects</h1>
 	    </header>
 	    <main>
+			<div class="flex-text">
+				<p>
+				  The design and implementation of an <strong>out-of-order N-way superscalar
+				  processor</strong>: The processor adopts the R10k style register renaming scheme, and supports 32-bit RISC-V ISA. 
+				  Its features include a load/store queue with internal data forwarding, 
+				  tournament branch predictor, memory prefetcher, and non-blocking set-associative data and instruction cache.
+				</p>
+				<p><a class="para" href="file/EECS470_Report.pdf"> [doc] </a><a class="para" href="https://github.com/EricDinging/out-of-order-processor"> [code] </a></p>
+			  </div>
+			  <div class="flex-image">
+				<img src="images/cpu.png" alt="Out-of-order CPU" style="width:50%;"/>
+			  </div>
+			<div class="flex-text">
+				<p>
+				  <strong>Propius</strong> is a federated learning (FL) resource management system, employing a microservice architecture based on gRPC protocol and Redis database. The system provides a clean abstraction on top of the device-level heterogeneity over the network, and supports various scheduling policies for different objectives. Venn, an advanced scheduling policy for FL job completion time (JCT) optimization, is deployed in Propius.
+				</p>
+				<p><a class="para" href="https://arxiv.org/pdf/2510.19617"> [doc] </a><a class="para" href="https://github.com/EricDinging/Propius"> [code] </a></p>
+			  </div>
+			  <div class="flex-image">
+				<img src="images/propius.png" alt="Propius" style="width:50%;"/>
+			  </div>
+			<div class="flex-text">
+				<p>
+				  <strong>Venn</strong> is an FL scheduler that efficiently schedules ephemeral, heterogeneous devices among many FL jobs, with the goal of reducing their average job completion time (JCT). Venn proposes a contention-aware scheduling heuristic to minimize the average scheduling delay, and a resource-aware device-to-job matching heuristic that focuses on optimizing response collection time by mitigating stragglers. Our evaluation shows that, compared to the state-of-the-art FL schedulers, Venn improves the average JCT by up to 1.88X. 
+				</p>
+				<p><a href=https://arxiv.org/abs/2312.08298 class="para">[arXiv:2312.08298]</a></p>
+			  </div>
+			  <div class="flex-image">
+				<img src="images/venn.png" alt="Venn" style="width:50%;"/>
+			  </div>
+
+			<div class="flex-text">
+				<p>
+				  <strong>WASP:</strong> Wearable Analytical Skin Probe, is a wearable closed-chamber hygrometer-based device. WASP uses an in-house communication protocol that operates atop I2C and Bluetooth Low Energy protocols. This protocol enables fast and reliable wireless communication between microcontrollers, ensuring high-fidelity data collection. WASP has been successfully deployed in experimental setups, measuring insensible sweating (TEWL) for early disease detection.
+				</p>
+				<p><a href=https://pubs.acs.org/doi/10.1021/acssensors.3c01936 class="para">[paper]</a></p>
+			  </div>
+			  <div class="flex-image">
+				<img src="images/wasp.png" alt="WASP" style="width:50%; "/>
+			  </div>
+
 	    	<h2>Light Strider, July 2021</h2>
 	    	<p>
 	    		This is a team project, a web game written in ELM. You are going to direct light beams through obstacles, using mirrors and light splitters. This game uses randomness and graph algorithms extensively. Try it. It's fun!
